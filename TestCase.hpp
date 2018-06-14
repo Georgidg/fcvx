@@ -55,7 +55,7 @@ class TestCase
         if (tests != givenStr)
         {
             Test2++;
-            outF << str << ": Failure in test #" << counterTests << ": string value soulde be "
+            outF << str << ": Failure in test #" << counterTests << ": string value should be "
               << givenStr << " but is " << a << endl;
         }
         else
