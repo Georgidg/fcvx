@@ -38,13 +38,13 @@ class TestCase
         if (!(f(a) == b))
         {
             Test2++;
-            outF << s << ": Failure in test #" << counterTests << ": Function should return " << b << " but returned " << f(a) << "!" << endl;
+            outF << str << ": Failure in test #" << counterTests << ": Function should return " << b << " but returned " << f(a) << "!" << endl;
         }
         else
             Test1++;
         return *this;
     }
-}  
+
     template <typename T>
     TestCase check_output(T a, string givenStr)
     {
@@ -77,4 +77,4 @@ template <typename T>
             Test1++;
         return *this;
     }
-;
+};
