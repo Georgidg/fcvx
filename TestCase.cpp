@@ -8,6 +8,6 @@ TestCase::TestCase(const string str, ostream &outF) : str(str), outF(outF)
 }
 void TestCase::print()
 {
-    outF << str << ": " << Test2 << " failed, " << Test1 << " passed, " << counterTests << " final_num." << endl
+    outF << str << ": " << Test2 << " failed, " << Test1 << " passed, " << counterTests << " total." << endl
       << "---" << endl;
 }
